@@ -2,22 +2,28 @@ package it.unical.ProvaIngSw;
 
 import static org.junit.Assert.assertEquals;
 
+
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
+
+import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
 public class MyListUtilTest {
 
 	private static MyListUtil myList;
+
+
 	
 	@BeforeClass
 	public static void prepare() {
 		myList = new MyListUtil();
+
+		
 	}
-	
 	
 	@Test
 	public void ordinaListaWork() {
@@ -44,6 +50,9 @@ public class MyListUtilTest {
 		
 		
 	}
+	
+	
+
 	
 	
 }
